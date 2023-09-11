@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+   <div>
+        <h1>Tính BMI</h1>
+        <div>
+        <label for="mark-mass">Khối lượng của Mark (kg):</label>
+        <input type="number" id="mark-mass" value="78">
+        </div>
+        <div>
+        <label for="mark-height">Chiều cao của Mark (m):</label>
+        <input type="number" id="mark-height" value="1.69">
+        </div>
+        <div>
+        <label for="john-mass">Khối lượng của John (kg):</label>
+        <input type="number" id="john-mass" value="95">
+        </div>
+        <div>
+        <label for="john-height">Chiều cao của John (m):</label>
+        <input type="number" id="john-height" value="1.88">
+        </div>
+        <button onclick="compareBMI()">Tính BMI</button>
+        <div id="result"></div>
+   </div>
+   <div>
+        <h1>Đua vô địch Gymnastics</h1>
+        <h2>Data 1:</h2>
+        <p>Dolphins: 96, 108, 89</p>
+        <p>Koalas: 88, 91, 110</p>
+        <button onclick="calculateAverageScore([96, 108, 89], [88, 91, 110])">Tính điểm trung bình</button>
+        <h2>Data Bonus 1:</h2>
+        <p>Dolphins: 97, 112, 101</p>
+        <p>Koalas: 109, 95, 123</p>
+        <button onclick="calculateAverageScore([97, 112, 101], [109, 95, 123])">Tính điểm trung bình</button>
+        <h2>Data Bonus 2:</h2>
+        <p>Dolphins: 97, 112, 101</p>
+        <p>Koalas: 109, 95, 106</p>
+        <button onclick="calculateAverageScore([97, 112, 101], [109, 95, 106])">Tính điểm trung bình</button>
+        <div id="result2">
+        </div>
+   </div>
+  </body>
+</html>
